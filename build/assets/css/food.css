@@ -1,0 +1,186 @@
+/* Home */
+
+.banner-section .slide-text {
+    font-size: 4rem;
+  }
+a {
+    text-decoration: none !important;
+    color: #08300f !important;
+}
+a:hover {
+  color: #e07c00 !important;
+}
+  .banner-section {
+    z-index: 1;
+    position: relative;
+    background-image: url("../images/background/banner-home.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    color: #fff;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    box-shadow: inset -8px -12px 20px 20px rgba(0, 0, 0, 0.7);
+    box-shadow: inset 52px 61px 120px rgb(0 0 0 / 70%);
+    padding: 10rem;
+  }
+
+
+  
+/*=============================
+Services CSS
+===============================*/
+
+/*Section Title*/
+.section-title {
+    margin: 2rem;
+    position: relative;
+  }
+  .section-title span {
+    color: #08300f;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+  }
+  .section-title h3 {
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 38px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .section-title .read-more-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    text-transform: capitalize;
+    text-decoration: underline;
+  }
+  .card-speciality:hover {
+    transform: translateY(-10px);
+}
+  .card-speciality {
+    transition: .5s;
+    max-height: 21rem;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border: 0 ! important;
+}
+
+.card-speciality:before {
+    content: "";
+    background-image: linear-gradient(180deg,transparent,#000);
+    width: 100%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    position: absolute;
+    border-radius: 8px;
+    transition: .5s;
+    z-index: 1;
+}
+
+.card-speciality-image {
+    overflow: hidden;
+    position: relative;
+    cursor: default;
+    border-radius: 10px;
+}
+
+.card-speciality .card-speciality-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    padding: 30px;
+    transition: .5s;
+    z-index: 5;
+    text-align: center;
+    background-color: transparent;
+    border-top: 0;
+}
+
+.card-speciality .card-speciality-content .card-title {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.card-speciality .card-speciality-content .card-link {
+    display: inherit;
+    color: #fff !important;
+}
+
+.hover-speciality:hover:before {
+  background-color: rgba(0,0,0,.8);
+}
+.hover-speciality:hover:before {
+  height: 100%;
+  background-image: linear-gradient(180deg,rgba(0,0,255,0),#08300f);
+}
+.card-speciality .card-speciality-content .card-title {
+  margin-bottom: 20px;
+  color: #fff;
+}
+/* --- Card speciality : End ---- */
+
+  .dropdown:hover > .dropdown-menu {
+    display: block;
+  }
+
+  /* header */
+
+  .header-top {
+    position: relative;
+    width: 100%;
+    z-index: 999;
+    padding: 20px 0;
+    background-color: #08300f;
+    box-shadow: 0 7px 13px 0 rgba(0, 0, 0, 0.1);
+  }
+  .header-top .logo {
+    margin-top: -6px;
+    color: #e07c00 !important;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .header .header-middle .nav{
+    border: 1px solid #eee;
+    border-radius: 26px
+  }
+ .header .header-middle li.nav-item {
+    border-right: 1px solid #eee;
+}
+  .header .header-middle .nav-link{
+    padding: 1rem 7rem;
+    color: #08300f;
+  }
+  .header .header-middle li:last-child {
+    border: none;
+  }
+  /* footer0 */
+  
+/*=============================
+Footer CSS
+===============================*/
+.footer {
+  padding-top: 50px;
+  position: relative;
+  background-color: #192532;
+  padding: 1.5rem;
+  color: #fff;
+}
+.footer a.app-link {
+  color: #e07c00 !important;
+  text-align: center;
+  line-height: 5rem;
+  margin-left: 5px;
+}

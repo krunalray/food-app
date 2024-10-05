@@ -1,0 +1,11 @@
+.btn-shadow {
+    box-shadow: 0 4px 10px 0 rgb(86 82 82 / 35%);
+    transition: transform .1s linear,box-shadow .1s linear,background-color .1s linear;
+}
+.card-shadow {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgb(223 227 239);
+}
+.invalid-feedback{
+    display: block !important;
+}
